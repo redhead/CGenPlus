@@ -7,9 +7,6 @@ namespace WindowsFormsApplication1
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
 
         private static List<Pair<String, String>> iniExpressions = new List<Pair<string, string>>();
 
