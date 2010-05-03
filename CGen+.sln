@@ -1,7 +1,7 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual C# Express 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGen+", "DrD Správce\CGen+.csproj", "{1ABBB7ED-710F-46A9-95A0-AC8758902793}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGen+", "DrD Spravce\CGen+.csproj", "{1ABBB7ED-710F-46A9-95A0-AC8758902793}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "old2new", "old2new\old2new.csproj", "{CB01824A-6539-493D-BB11-343C7F09C5C5}"
 EndProject
