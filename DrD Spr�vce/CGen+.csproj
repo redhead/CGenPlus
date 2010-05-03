@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1ABBB7ED-710F-46A9-95A0-AC8758902793}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>CGen Plus</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <ApplicationIcon>icon2.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>08931078612C8D78B3E283D6829DB6195D84AE23</ManifestCertificateThumbprint>
+    <ManifestKeyFile>CGen+_TemporaryKey.pfx</ManifestKeyFile>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>publish13\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>2</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://cgenplus.utf-8.cz/updates/</UpdateUrl>
+    <TargetCulture>cs</TargetCulture>
+    <ProductName>CGen+</ProductName>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <DisallowUrlActivation>true</DisallowUrlActivation>
+    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationVersion>0.6.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release2\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="databaseDataSet.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>databaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\opravy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\opravy.Designer.cs">
+      <DependentUpon>opravy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\tabOrderer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\tabOrderer.Designer.cs">
+      <DependentUpon>tabOrderer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\ultraHodPrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\ultraHodPrompt.Designer.cs">
+      <DependentUpon>ultraHodPrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\opravyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\opravyDialog.Designer.cs">
+      <DependentUpon>opravyDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnavaMgr.cs" />
+    <Compile Include="DovednostiMgr.cs" />
+    <Compile Include="Exporter.cs" />
+    <Compile Include="FileAssociation.cs" />
+    <Compile Include="Forms &amp; Dialogs\about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\paint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\paint.Designer.cs">
+      <DependentUpon>paint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\levelUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\levelUp.Designer.cs">
+      <DependentUpon>levelUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\nastaveni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\nastaveni.Designer.cs">
+      <DependentUpon>nastaveni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\newKombinace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\newKombinace.Designer.cs">
+      <DependentUpon>newKombinace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\newPocet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\newPocet.Designer.cs">
+      <DependentUpon>newPocet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\newPredmet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\newPredmet.Designer.cs">
+      <DependentUpon>newPredmet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\nova postava\UpravaPostavyDialog3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\nova postava\UpravaPostavyDialog3.Designer.cs">
+      <DependentUpon>UpravaPostavyDialog3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\sellDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\sellDialog.Designer.cs">
+      <DependentUpon>sellDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\skillsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\skillsUp.Designer.cs">
+      <DependentUpon>skillsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\specVlast.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\specVlast.Designer.cs">
+      <DependentUpon>specVlast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newDovednostDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newDovednostDialog.Designer.cs">
+      <DependentUpon>newDovednostDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\dovednostiDataDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\dovednostiDataDialog.Designer.cs">
+      <DependentUpon>dovednostiDataDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newPovolaniDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newPovolaniDialog.Designer.cs">
+      <DependentUpon>newPovolaniDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newPredmetDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newPredmetDialog.Designer.cs">
+      <DependentUpon>newPredmetDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newRasyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newRasyDialog.Designer.cs">
+      <DependentUpon>newRasyDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newStitDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newStitDialog.Designer.cs">
+      <DependentUpon>newStitDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newZbranDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newZbranDialog.Designer.cs">
+      <DependentUpon>newZbranDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newZbrojDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\newZbrojDialog.Designer.cs">
+      <DependentUpon>newZbrojDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\povolaniDataDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\povolaniDataDialog.Designer.cs">
+      <DependentUpon>povolaniDataDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\nova postava\UpravaPostavyDialog2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\nova postava\UpravaPostavyDialog2.Designer.cs">
+      <DependentUpon>UpravaPostavyDialog2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\predmetyDataDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\predmetyDataDialog.Designer.cs">
+      <DependentUpon>predmetyDataDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\rasyDataDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\rasyDataDialog.Designer.cs">
+      <DependentUpon>rasyDataDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\stityDataDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\stityDataDialog.Designer.cs">
+      <DependentUpon>stityDataDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\zbraneDataDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\zbraneDataDialog.Designer.cs">
+      <DependentUpon>zbraneDataDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\zbrojeDataDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Spravci databaze\zbrojeDataDialog.Designer.cs">
+      <DependentUpon>zbrojeDataDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\tables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\tables.Designer.cs">
+      <DependentUpon>tables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\ultraHod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\ultraHod.Designer.cs">
+      <DependentUpon>ultraHod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\vyberZbroje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\vyberZbroje.Designer.cs">
+      <DependentUpon>vyberZbroje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\zkusenosti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\zkusenosti.Designer.cs">
+      <DependentUpon>zkusenosti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KombinaceMgr.cs" />
+    <Compile Include="Postava.cs">
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\nova postava\UpravaPostavyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\nova postava\UpravaPostavyDialog.Designer.cs">
+      <DependentUpon>UpravaPostavyDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\nova postava\NovaPostavaDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\nova postava\NovaPostavaDialog.Designer.cs">
+      <DependentUpon>NovaPostavaDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms &amp; Dialogs\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PostavyMgr.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms &amp; Dialogs\about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\opravy.resx">
+      <DependentUpon>opravy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\paint.resx">
+      <DependentUpon>paint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\levelUp.resx">
+      <DependentUpon>levelUp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\nastaveni.resx">
+      <DependentUpon>nastaveni.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\newKombinace.resx">
+      <DependentUpon>newKombinace.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\newPocet.resx">
+      <DependentUpon>newPocet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\newPredmet.resx">
+      <DependentUpon>newPredmet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\nova postava\UpravaPostavyDialog3.resx">
+      <DependentUpon>UpravaPostavyDialog3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\sellDialog.resx">
+      <DependentUpon>sellDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\skillsUp.resx">
+      <DependentUpon>skillsUp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\specVlast.resx">
+      <DependentUpon>specVlast.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\newDovednostDialog.resx">
+      <DependentUpon>newDovednostDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\dovednostiDataDialog.resx">
+      <DependentUpon>dovednostiDataDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\newPovolaniDialog.resx">
+      <DependentUpon>newPovolaniDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\nova postava\NovaPostavaDialog.resx">
+      <DependentUpon>NovaPostavaDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\nova postava\UpravaPostavyDialog2.resx">
+      <DependentUpon>UpravaPostavyDialog2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\newPredmetDialog.resx">
+      <DependentUpon>newPredmetDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\newRasyDialog.resx">
+      <DependentUpon>newRasyDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\newStitDialog.resx">
+      <DependentUpon>newStitDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\newZbranDialog.resx">
+      <DependentUpon>newZbranDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\newZbrojDialog.resx">
+      <DependentUpon>newZbrojDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\povolaniDataDialog.resx">
+      <DependentUpon>povolaniDataDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\predmetyDataDialog.resx">
+      <DependentUpon>predmetyDataDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\rasyDataDialog.resx">
+      <DependentUpon>rasyDataDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\stityDataDialog.resx">
+      <DependentUpon>stityDataDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\zbraneDataDialog.resx">
+      <DependentUpon>zbraneDataDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\Spravci databaze\zbrojeDataDialog.resx">
+      <DependentUpon>zbrojeDataDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\tables.resx">
+      <DependentUpon>tables.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\tabOrderer.resx">
+      <DependentUpon>tabOrderer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\ultraHod.resx">
+      <DependentUpon>ultraHod.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\ultraHodPrompt.resx">
+      <DependentUpon>ultraHodPrompt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\vyberZbroje.resx">
+      <DependentUpon>vyberZbroje.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\zkusenosti.resx">
+      <DependentUpon>zkusenosti.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\opravyDialog.resx">
+      <DependentUpon>opravyDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms &amp; Dialogs\nova postava\UpravaPostavyDialog.resx">
+      <DependentUpon>UpravaPostavyDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="databaseDataSet.xsc">
+      <DependentUpon>databaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="databaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>databaseDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="databaseDataSet.xss">
+      <DependentUpon>databaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="VybavaMgr.cs" />
+    <Compile Include="ZbrojMgr.cs" />
+    <Compile Include="ZivotyMgr.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Layouts\bojovnik.xml" />
+    <None Include="bin\Debug\Layouts\zlodej.xml" />
+    <Content Include="cinnosti.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="db.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="drzIcon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icon2.ico" />
+    <Content Include="Images\notesIcon.png" />
+    <Content Include="Layouts\bojovnik.xml" />
+    <Content Include="Layouts\hranicar.xml" />
+    <Content Include="Layouts\zlodej.xml" />
+    <Content Include="old2new.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="posIcon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Images\eqipIcon.png" />
+    <None Include="Images\deleteIcon.ico" />
+    <None Include="Images\icon.ico" />
+    <None Include="Images\weaponsIco.ico" />
+    <None Include="Images\saveIcon2.ico" />
+    <None Include="Images\saveIcon.ico" />
+    <None Include="Images\openIcon.ico" />
+    <None Include="Images\newIcon.ico" />
+    <None Include="Images\levelUp.ico" />
+    <None Include="Images\icon2.ico" />
+    <None Include="Images\weaponsIcon.png" />
+    <None Include="Images\skillsIcon.png" />
+    <None Include="Images\mainIcon.png" />
+    <None Include="Images\main.png" />
+    <None Include="Images\magicIcon.png" />
+    <None Include="Images\lootIcon.png" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.databaseDataSetTableAdapters.povolaniTableAdapter.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.databaseDataSetTableAdapters.rasyTableAdapter.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="cinnosti.txt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="db.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Layouts\bojovnik.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Layouts\hranicar.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Layouts\zlodej.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

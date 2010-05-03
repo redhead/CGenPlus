@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <label size="big" left="10" top="10">Archetypy</label>
+  <label left="133" top="20">Stupeň</label>
+  
+  <label left="15" top="40">Rytíř</label>
+  <label left="15" top="60">Šermíř</label>
+  <label left="15" top="80">Gladiátor</label>
+  <label left="15" top="100">Bijec</label>
+  <label left="15" top="120">Barbar</label>
+  <label left="15" top="140">Kondotiér</label>
+  
+  <checkbox left="80" top="40"></checkbox>
+  <checkbox left="95" top="40"></checkbox>
+  <checkbox left="110" top="40"></checkbox>
+  <checkbox left="125" top="40"></checkbox>
+  <checkbox left="140" top="40"></checkbox>
+  <checkbox left="155" top="40"></checkbox>
+  <checkbox left="170" top="40"></checkbox>
+  <checkbox left="185" top="40"></checkbox>
+  <checkbox left="200" top="40"></checkbox>
+  <checkbox left="215" top="40"></checkbox>
+  
+  <checkbox left="80" top="60"></checkbox>
+  <checkbox left="95" top="60"></checkbox>
+  <checkbox left="110" top="60"></checkbox>
+  <checkbox left="125" top="60"></checkbox>
+  <checkbox left="140" top="60"></checkbox>
+  <checkbox left="155" top="60"></checkbox>
+  <checkbox left="170" top="60"></checkbox>
+  <checkbox left="185" top="60"></checkbox>
+  <checkbox left="200" top="60"></checkbox>
+  <checkbox left="215" top="60"></checkbox>
+  
+  <checkbox left="80" top="80"></checkbox>
+  <checkbox left="95" top="80"></checkbox>
+  <checkbox left="110" top="80"></checkbox>
+  <checkbox left="125" top="80"></checkbox>
+  <checkbox left="140" top="80"></checkbox>
+  <checkbox left="155" top="80"></checkbox>
+  <checkbox left="170" top="80"></checkbox>
+  <checkbox left="185" top="80"></checkbox>
+  <checkbox left="200" top="80"></checkbox>
+  <checkbox left="215" top="80"></checkbox>
+  
+  <checkbox left="80" top="100"></checkbox>
+  <checkbox left="95" top="100"></checkbox>
+  <checkbox left="110" top="100"></checkbox>
+  <checkbox left="125" top="100"></checkbox>
+  <checkbox left="140" top="100"></checkbox>
+  <checkbox left="155" top="100"></checkbox>
+  <checkbox left="170" top="100"></checkbox>
+  <checkbox left="185" top="100"></checkbox>
+  <checkbox left="200" top="100"></checkbox>
+  <checkbox left="215" top="100"></checkbox>
+  
+  <checkbox left="80" top="120"></checkbox>
+  <checkbox left="95" top="120"></checkbox>
+  <checkbox left="110" top="120"></checkbox>
+  <checkbox left="125" top="120"></checkbox>
+  <checkbox left="140" top="120"></checkbox>
+  <checkbox left="155" top="120"></checkbox>
+  <checkbox left="170" top="120"></checkbox>
+  <checkbox left="185" top="120"></checkbox>
+  <checkbox left="200" top="120"></checkbox>
+  <checkbox left="215" top="120"></checkbox>
+  
+  <checkbox left="80" top="140"></checkbox>
+  <checkbox left="95" top="140"></checkbox>
+  <checkbox left="110" top="140"></checkbox>
+  <checkbox left="125" top="140"></checkbox>
+  <checkbox left="140" top="140"></checkbox>
+  <checkbox left="155" top="140"></checkbox>
+  <checkbox left="170" top="140"></checkbox>
+  <checkbox left="185" top="140"></checkbox>
+  <checkbox left="200" top="140"></checkbox>
+  <checkbox left="215" top="140"></checkbox>
+  
+  <label size="big" left="10" top="170">Finty</label>
+  <label left="15" top="190">Název</label>
+  <label left="136" top="190">Předpoklady</label>
+  <label left="216" top="190">Převaha</label>
+  <label left="267" top="190">Poznámky</label>
+  
+  <textbox left="18" top="210" width="115"></textbox>
+  <textbox left="139" top="210" width="74"></textbox>
+  <textbox left="219" top="210" width="45"></textbox>
+  <textbox left="270" top="210" width="120"></textbox>
+  
+  <textbox left="18" top="232" width="115"></textbox>
+  <textbox left="139" top="232" width="74"></textbox>
+  <textbox left="219" top="232" width="45"></textbox>
+  <textbox left="270" top="232" width="120"></textbox>
+  
+  <textbox left="18" top="254" width="115"></textbox>
+  <textbox left="139" top="254" width="74"></textbox>
+  <textbox left="219" top="254" width="45"></textbox>
+  <textbox left="270" top="254" width="120"></textbox>
+  
+  <textbox left="18" top="276" width="115"></textbox>
+  <textbox left="139" top="276" width="74"></textbox>
+  <textbox left="219" top="276" width="45"></textbox>
+  <textbox left="270" top="276" width="120"></textbox>
+  
+  <textbox left="18" top="298" width="115"></textbox>
+  <textbox left="139" top="298" width="74"></textbox>
+  <textbox left="219" top="298" width="45"></textbox>
+  <textbox left="270" top="298" width="120"></textbox>
+  
+  <textbox left="18" top="320" width="115"></textbox>
+  <textbox left="139" top="320" width="74"></textbox>
+  <textbox left="219" top="320" width="45"></textbox>
+  <textbox left="270" top="320" width="120"></textbox>
+  
+  <textbox left="18" top="342" width="115"></textbox>
+  <textbox left="139" top="342" width="74"></textbox>
+  <textbox left="219" top="342" width="45"></textbox>
+  <textbox left="270" top="342" width="120"></textbox>
+  
+  <textbox left="18" top="364" width="115"></textbox>
+  <textbox left="139" top="364" width="74"></textbox>
+  <textbox left="219" top="364" width="45"></textbox>
+  <textbox left="270" top="364" width="120"></textbox>
+  
+  <textbox left="18" top="386" width="115"></textbox>
+  <textbox left="139" top="386" width="74"></textbox>
+  <textbox left="219" top="386" width="45"></textbox>
+  <textbox left="270" top="386" width="120"></textbox>
+  
+  <textbox left="18" top="408" width="115"></textbox>
+  <textbox left="139" top="408" width="74"></textbox>
+  <textbox left="219" top="408" width="45"></textbox>
+  <textbox left="270" top="408" width="120"></textbox>
+  
+  <label size="big" left="400" top="170">Schopnosti</label>
+  <label left="405" top="190">Schopnost</label>
+  <label left="531" top="190">Poznámky</label>
+  
+  <textbox left="408" top="210" width="120"></textbox>
+  <textbox left="534" top="210" width="120"></textbox>
+  
+  <textbox left="408" top="232" width="120"></textbox>
+  <textbox left="534" top="232" width="120"></textbox>
+  
+  <textbox left="408" top="254" width="120"></textbox>
+  <textbox left="534" top="254" width="120"></textbox>
+  
+  <textbox left="408" top="276" width="120"></textbox>
+  <textbox left="534" top="276" width="120"></textbox>
+  
+  <textbox left="408" top="298" width="120"></textbox>
+  <textbox left="534" top="298" width="120"></textbox>
+  
+  <textbox left="408" top="320" width="120"></textbox>
+  <textbox left="534" top="320" width="120"></textbox>
+  
+  <textbox left="408" top="342" width="120"></textbox>
+  <textbox left="534" top="342" width="120"></textbox>
+  
+  <textbox left="408" top="364" width="120"></textbox>
+  <textbox left="534" top="364" width="120"></textbox>
+  
+  <textbox left="408" top="386" width="120"></textbox>
+  <textbox left="534" top="386" width="120"></textbox>
+  
+  <textbox left="408" top="408" width="120"></textbox>
+  <textbox left="534" top="408" width="120"></textbox>
+</layout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

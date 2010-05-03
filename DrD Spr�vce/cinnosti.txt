@@ -1,0 +1,5 @@
+﻿Silová činnost	Sil+2k6*
+Skok do dálky (z místa)	Sil+3+1k6
+Skok do dálky (s rozběhem)	Sil+6+1k6
+Skok do výšky (z místa)	Sil+1k6
+Skok do výšky (s rozběhem)	Sil+3+1k6

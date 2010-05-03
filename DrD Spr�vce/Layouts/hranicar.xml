@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <label size="big" left="10" top="10">Zaměření</label>
+  
+  <label left="15" top="42">Znalost</label>
+  <label left="15" top="57">Praxe</label>
+  <label left="57" top="42">Název</label>
+  <label left="127" top="42">Mechanismus</label>
+  <label left="287" top="42">Potřebná čísla</label>
+  
+  <textbox left="18" top="75" width="30"></textbox>
+  <textbox left="18" top="94" width="30"></textbox>
+  <textbox left="60" top="77" width="65" height="35"></textbox>
+  <textbox left="130" top="77" width="150" height="35"></textbox>
+  <textbox left="290" top="77" width="100" height="35"></textbox>
+  
+  <textbox left="18" top="115" width="30"></textbox>
+  <textbox left="18" top="134" width="30"></textbox>
+  <textbox left="60" top="117" width="65" height="35"></textbox>
+  <textbox left="130" top="117" width="150" height="35"></textbox>
+  <textbox left="290" top="117" width="100" height="35"></textbox>
+  
+  <textbox left="18" top="155" width="30"></textbox>
+  <textbox left="18" top="174" width="30"></textbox>
+  <textbox left="60" top="157" width="65" height="35"></textbox>
+  <textbox left="130" top="157" width="150" height="35"></textbox>
+  <textbox left="290" top="157" width="100" height="35"></textbox>
+  
+  <textbox left="18" top="195" width="30"></textbox>
+  <textbox left="18" top="214" width="30"></textbox>
+  <textbox left="60" top="197" width="65" height="35"></textbox>
+  <textbox left="130" top="197" width="150" height="35"></textbox>
+  <textbox left="290" top="197" width="100" height="35"></textbox>
+  
+  <textbox left="18" top="235" width="30"></textbox>
+  <textbox left="18" top="254" width="30"></textbox>
+  <textbox left="60" top="237" width="65" height="35"></textbox>
+  <textbox left="130" top="237" width="150" height="35"></textbox>
+  <textbox left="290" top="237" width="100" height="35"></textbox>
+  
+  <textbox left="18" top="235" width="30"></textbox>
+  <textbox left="18" top="254" width="30"></textbox>
+  <textbox left="60" top="237" width="65" height="35"></textbox>
+  <textbox left="130" top="237" width="150" height="35"></textbox>
+  <textbox left="290" top="237" width="100" height="35"></textbox>
+  
+  <label left="400" top="42">Znalost</label>
+  <label left="400" top="57">Praxe</label>
+  <label left="442" top="42">Název</label>
+  <label left="512" top="42">Mechanismus</label>
+  <label left="672" top="42">Potřebná čísla</label>
+  
+  <textbox left="403" top="75" width="30"></textbox>
+  <textbox left="403" top="94" width="30"></textbox>
+  <textbox left="445" top="77" width="65" height="35"></textbox>
+  <textbox left="515" top="77" width="150" height="35"></textbox>
+  <textbox left="675" top="77" width="100" height="35"></textbox>
+  
+  <textbox left="403" top="115" width="30"></textbox>
+  <textbox left="403" top="134" width="30"></textbox>
+  <textbox left="445" top="117" width="65" height="35"></textbox>
+  <textbox left="515" top="117" width="150" height="35"></textbox>
+  <textbox left="675" top="117" width="100" height="35"></textbox>
+  
+  <textbox left="403" top="155" width="30"></textbox>
+  <textbox left="403" top="174" width="30"></textbox>
+  <textbox left="445" top="157" width="65" height="35"></textbox>
+  <textbox left="515" top="157" width="150" height="35"></textbox>
+  <textbox left="675" top="157" width="100" height="35"></textbox>
+  
+  <textbox left="403" top="195" width="30"></textbox>
+  <textbox left="403" top="214" width="30"></textbox>
+  <textbox left="445" top="197" width="65" height="35"></textbox>
+  <textbox left="515" top="197" width="150" height="35"></textbox>
+  <textbox left="675" top="197" width="100" height="35"></textbox>
+  
+  <textbox left="403" top="235" width="30"></textbox>
+  <textbox left="403" top="254" width="30"></textbox>
+  <textbox left="445" top="237" width="65" height="35"></textbox>
+  <textbox left="515" top="237" width="150" height="35"></textbox>
+  <textbox left="675" top="237" width="100" height="35"></textbox>
+  
+  <textbox left="403" top="235" width="30"></textbox>
+  <textbox left="403" top="254" width="30"></textbox>
+  <textbox left="445" top="237" width="65" height="35"></textbox>
+  <textbox left="515" top="237" width="150" height="35"></textbox>
+  <textbox left="675" top="237" width="100" height="35"></textbox>
+  
+  <label size="big" left="10" top="290">Totem</label>
+  <label left="15" top="312">Zvíře:</label>
+  <label left="170" top="312">Mechanismus:</label>
+  <textbox left="60" top="310" width="100"></textbox>
+  <textbox left="250" top="310" width="300"></textbox>
+</layout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

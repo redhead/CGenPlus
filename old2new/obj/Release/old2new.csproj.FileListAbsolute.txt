@@ -1,0 +1,5 @@
+C:\Users\Radek\Documents\Visual Studio 2008\Projects\DrD+ Manager\old2new\bin\Release\old2new.exe
+C:\Users\Radek\Documents\Visual Studio 2008\Projects\DrD+ Manager\old2new\bin\Release\old2new.pdb
+C:\Users\Radek\Documents\Visual Studio 2008\Projects\DrD+ Manager\old2new\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Radek\Documents\Visual Studio 2008\Projects\DrD+ Manager\old2new\obj\Release\old2new.exe
+C:\Users\Radek\Documents\Visual Studio 2008\Projects\DrD+ Manager\old2new\obj\Release\old2new.pdb
